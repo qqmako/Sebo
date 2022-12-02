@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3399337A-483C-41B2-AFEE-34833B5AD3B2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sebo1</RootNamespace>
+    <AssemblyName>Sebo1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Stergere Date Angajati.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stergere Date Angajati.Designer.cs">
+      <DependentUpon>Stergere Date Angajati.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stergere Date Clienti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stergere Date Clienti.Designer.cs">
+      <DependentUpon>Stergere Date Clienti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stergere Date Contracte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stergere Date Contracte.Designer.cs">
+      <DependentUpon>Stergere Date Contracte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stergere Date Oferte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stergere Date Oferte.Designer.cs">
+      <DependentUpon>Stergere Date Oferte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stergere Date Filiala.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stergere Date Filiala.Designer.cs">
+      <DependentUpon>Stergere Date Filiala.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stergere Date Companie .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stergere Date Companie .Designer.cs">
+      <DependentUpon>Stergere Date Companie .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actualizare Date Contracte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizare Date Contracte.Designer.cs">
+      <DependentUpon>Actualizare Date Contracte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actualizare Date Clienti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizare Date Clienti.Designer.cs">
+      <DependentUpon>Actualizare Date Clienti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actualizare Date Angajati.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizare Date Angajati.Designer.cs">
+      <DependentUpon>Actualizare Date Angajati.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actualizare Date Oferte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizare Date Oferte.Designer.cs">
+      <DependentUpon>Actualizare Date Oferte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actualizare Date Filiala.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizare Date Filiala.Designer.cs">
+      <DependentUpon>Actualizare Date Filiala.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Diagrama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diagrama.Designer.cs">
+      <DependentUpon>Diagrama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actualizare Date Companie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizare Date Companie.Designer.cs">
+      <DependentUpon>Actualizare Date Companie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inserare Date Contracte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inserare Date Contracte.Designer.cs">
+      <DependentUpon>Inserare Date Contracte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inserare Date Clienti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inserare Date Clienti.Designer.cs">
+      <DependentUpon>Inserare Date Clienti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inserare Date Angajati.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inserare Date Angajati.Designer.cs">
+      <DependentUpon>Inserare Date Angajati.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inserare Date Companie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inserare Date Companie.Designer.cs">
+      <DependentUpon>Inserare Date Companie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inserare Date Filiala.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inserare Date Filiala.Designer.cs">
+      <DependentUpon>Inserare Date Filiala.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inserare Date Oferte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inserare Date Oferte.Designer.cs">
+      <DependentUpon>Inserare Date Oferte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pagina Principala.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pagina Principala.Designer.cs">
+      <DependentUpon>Pagina Principala.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeboDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SeboDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SeboDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SeboDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SeboDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SeboDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SeboDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SeboDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SeboDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SeboDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SeboDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SeboDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabela Angajati.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabela Angajati.Designer.cs">
+      <DependentUpon>Tabela Angajati.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabela Clienti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabela Clienti.Designer.cs">
+      <DependentUpon>Tabela Clienti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabela Contracte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabela Contracte.Designer.cs">
+      <DependentUpon>Tabela Contracte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabela Filiala.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabela Filiala.Designer.cs">
+      <DependentUpon>Tabela Filiala.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabela Oferte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabela Oferte.Designer.cs">
+      <DependentUpon>Tabela Oferte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelul Companie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabelul Companie.Designer.cs">
+      <DependentUpon>Tabelul Companie.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Stergere Date Angajati.resx">
+      <DependentUpon>Stergere Date Angajati.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stergere Date Clienti.resx">
+      <DependentUpon>Stergere Date Clienti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stergere Date Contracte.resx">
+      <DependentUpon>Stergere Date Contracte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stergere Date Oferte.resx">
+      <DependentUpon>Stergere Date Oferte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stergere Date Filiala.resx">
+      <DependentUpon>Stergere Date Filiala.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stergere Date Companie .resx">
+      <DependentUpon>Stergere Date Companie .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actualizare Date Contracte.resx">
+      <DependentUpon>Actualizare Date Contracte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actualizare Date Clienti.resx">
+      <DependentUpon>Actualizare Date Clienti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actualizare Date Angajati.resx">
+      <DependentUpon>Actualizare Date Angajati.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actualizare Date Oferte.resx">
+      <DependentUpon>Actualizare Date Oferte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actualizare Date Filiala.resx">
+      <DependentUpon>Actualizare Date Filiala.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diagrama.resx">
+      <DependentUpon>Diagrama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actualizare Date Companie.resx">
+      <DependentUpon>Actualizare Date Companie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inserare Date Contracte.resx">
+      <DependentUpon>Inserare Date Contracte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inserare Date Clienti.resx">
+      <DependentUpon>Inserare Date Clienti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inserare Date Angajati.resx">
+      <DependentUpon>Inserare Date Angajati.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inserare Date Companie.resx">
+      <DependentUpon>Inserare Date Companie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inserare Date Filiala.resx">
+      <DependentUpon>Inserare Date Filiala.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inserare Date Oferte.resx">
+      <DependentUpon>Inserare Date Oferte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagina Principala.resx">
+      <DependentUpon>Pagina Principala.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Tabela Angajati.resx">
+      <DependentUpon>Tabela Angajati.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabela Clienti.resx">
+      <DependentUpon>Tabela Clienti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabela Contracte.resx">
+      <DependentUpon>Tabela Contracte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabela Filiala.resx">
+      <DependentUpon>Tabela Filiala.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabela Oferte.resx">
+      <DependentUpon>Tabela Oferte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabelul Companie.resx">
+      <DependentUpon>Tabelul Companie.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SeboDataSet.xsc">
+      <DependentUpon>SeboDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SeboDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SeboDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SeboDataSet.xss">
+      <DependentUpon>SeboDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SeboDataSet1.xsc">
+      <DependentUpon>SeboDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SeboDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SeboDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SeboDataSet1.xss">
+      <DependentUpon>SeboDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SeboDataSet2.xsc">
+      <DependentUpon>SeboDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SeboDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SeboDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SeboDataSet2.xss">
+      <DependentUpon>SeboDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SeboDataSet3.xsc">
+      <DependentUpon>SeboDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SeboDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SeboDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SeboDataSet3.xss">
+      <DependentUpon>SeboDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SeboDataSet4.xsc">
+      <DependentUpon>SeboDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="SeboDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SeboDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SeboDataSet4.xss">
+      <DependentUpon>SeboDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="SeboDataSet5.xsc">
+      <DependentUpon>SeboDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="SeboDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SeboDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SeboDataSet5.xss">
+      <DependentUpon>SeboDataSet5.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diagrama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\119c4bae1ed4d2ec7247fac7f9784733.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2019_03_25_17_45_26_logo_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Без названия.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
